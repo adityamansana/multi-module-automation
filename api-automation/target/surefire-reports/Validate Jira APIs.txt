@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Validate Jira APIs
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.706 s <<< FAILURE! - in Validate Jira APIs
+validate get task api  Time elapsed: 1.698 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.818">
+    <testcase classname="Validate Jira APIs" name="validate get task api" time="0.126">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given I have Jira get task details api......................................failed
+When I send request to fetch task details...................................skipped
+Then I should get the task details..........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.api.ScenarioContext.log(ScenarioContext.java:36)
+	at com.api.stepdefinitions.SampleStepDefinitions.I_have_Jira_get_task_details_api(SampleStepDefinitions.java:18)
+	at ✽.I have Jira get task details api(classpath:com/api/runner/Demo.feature:4)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

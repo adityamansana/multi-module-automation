@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-19T20:25:04.736Z",
+        "line": 3,
+        "name": "validate get task api",
+        "description": "",
+        "id": "validate-jira-apis;validate-get-task-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.api.ScenarioContext.log(ScenarioContext.java:36)\r\n\tat com.api.stepdefinitions.SampleStepDefinitions.I_have_Jira_get_task_details_api(SampleStepDefinitions.java:18)\r\n\tat ✽.I have Jira get task details api(classpath:com/api/runner/Demo.feature:4)\r\n",
+              "duration": 14121100,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "I have Jira get task details api",
+            "match": {
+              "location": "com.api.stepdefinitions.SampleStepDefinitions.I_have_Jira_get_task_details_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1016800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I send request to fetch task details",
+            "match": {
+              "location": "com.api.stepdefinitions.SampleStepDefinitions.I_send_request_to_fetch_task_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TaskID"
+                ]
+              },
+              {
+                "cells": [
+                  "Test-001"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1394300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I should get the task details",
+            "match": {
+              "location": "com.api.stepdefinitions.SampleStepDefinitions.I_should_get_the_task_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Jira APIs",
+    "description": "",
+    "id": "validate-jira-apis",
+    "keyword": "Feature",
+    "uri": "classpath:com/api/runner/Demo.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
